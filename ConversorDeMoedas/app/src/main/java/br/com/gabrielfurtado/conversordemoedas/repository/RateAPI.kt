@@ -14,7 +14,7 @@ class RateAPI {
         context: Context,
         observer: IObserver
     ){
-        val url = "https://api.hgbrasil.com/finance"
+        val url = "https://api.hgbrasil.com/finance?key=855d498a"
         val queue = Volley.newRequestQueue(context)
         val stringReq = StringRequest(
             Request.Method.GET,
@@ -39,5 +39,6 @@ class RateAPI {
                 Log.d("APPDEBUG","Erro!!!")
             }
         )
+        queue.add(stringReq)
     }
 }
