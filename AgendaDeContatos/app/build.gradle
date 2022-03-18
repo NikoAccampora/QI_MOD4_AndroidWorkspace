@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "br.com.nikoaccampora.agendadecontatos"
+        applicationId "br.com.andersonchoren.agendadecontatos"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-
     implementation 'com.j256.ormlite:ormlite-android:4.48'
     implementation 'com.j256.ormlite:ormlite-core:4.48'
     implementation 'androidx.core:core-ktx:1.7.0'

@@ -1,4 +1,4 @@
-package br.com.nikoaccampora.agendadecontatos
+package br.com.andersonchoren.agendadecontatos
 
 import org.junit.Test
 

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/00NIKO/QI_MOD4_AndroidWorkspace/AgendaDeContatos/app/src/main/res/drawable/ic_people.xml" value="0.166" />
         <entry key="..\:/00NIKO/QI_MOD4_AndroidWorkspace/AgendaDeContatos/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/00NIKO/QI_MOD4_AndroidWorkspace/AgendaDeContatos/app/src/main/res/layout/activity_new_contact.xml" value="0.20416666666666666" />
         <entry key="..\:/00NIKO/QI_MOD4_AndroidWorkspace/AgendaDeContatos/app/src/main/res/layout/contact_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ANDERSON/Documents/Mobile Noite/AgendaDeContatos/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ANDERSON/Documents/Mobile Noite/AgendaDeContatos/app/src/main/res/layout/contact_item.xml" value="0.5" />
       </map>
     </option>
   </component>

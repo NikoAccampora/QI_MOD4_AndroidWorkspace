@@ -1,4 +1,4 @@
-package br.com.nikoaccampora.agendadecontatos
+package br.com.andersonchoren.agendadecontatos
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("br.com.nikoaccampora.agendadecontatos", appContext.packageName)
+        assertEquals("br.com.andersonchoren.agendadecontatos", appContext.packageName)
     }
 }
