@@ -32,8 +32,8 @@ class AdapterDemon(private val context: Context, private  val demons: MutableLis
     inner class DemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val foto = itemView.findViewById<ImageView>(R.id.demon_image)
         val nome = itemView.findViewById<TextView>(R.id.demon_name)
-        val health = itemView.findViewById<TextView>(R.id.demon_stat_health)
-        val attack = itemView.findViewById<TextView>(R.id.demon_stat_attack)
-        val agility = itemView.findViewById<TextView>(R.id.demon_stat_agility)
+        val health = itemView.findViewById<TextView>(R.id.demon_health_value)
+        val attack = itemView.findViewById<TextView>(R.id.demon_attack_value)
+        val agility = itemView.findViewById<TextView>(R.id.demon_agility_value)
     }
 }

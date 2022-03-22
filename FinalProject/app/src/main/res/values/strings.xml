@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name">Demons of Hell</string>
+    <string name="demon_name_title">Name:</string>
+    <string name="demon_health_title">Health:</string>
+    <string name="demon_attack_title">Attack:</string>
+    <string name="demon_agility_title">Agility:</string>
+    <string name="label_name">Name</string>
+    <string name="label_attack">Attack Rating</string>
+    <string name="label_health">Health Amount</string>
+    <string name="label_agility">Agility Rating</string>
 </resources>

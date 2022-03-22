@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Demonios do Inferno</string>
+    <string name="demon_name_title">Nome</string>
+    <string name="demon_health_title">Energia:</string>
+    <string name="demon_attack_title">Ataque:</string>
+    <string name="demon_agility_title">Agilidade:</string>
+</resources>
