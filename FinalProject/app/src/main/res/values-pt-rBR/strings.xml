@@ -5,4 +5,12 @@
     <string name="demon_health_title">Energia:</string>
     <string name="demon_attack_title">Ataque:</string>
     <string name="demon_agility_title">Agilidade:</string>
+    <string name="label_name">Nome</string>
+    <string name="label_attack">Nível de Ataque</string>
+    <string name="label_health">Quantidade de Energia</string>
+    <string name="label_agility">Nível de Agilidade</string>
+    <string name="label_picture">Arquivo de imagem</string>
+    <string name="label_msg_confirm">Demonio registrado!!</string>
+    <string name="title_home">Directorio de Demonios</string>
+    <string name="title_new_demon">Novo demonio</string>
 </resources>

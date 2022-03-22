@@ -8,4 +8,8 @@
     <string name="label_attack">Attack Rating</string>
     <string name="label_health">Health Amount</string>
     <string name="label_agility">Agility Rating</string>
+    <string name="label_picture">Image file</string>
+    <string name="label_msg_confirm">Demon saved!!</string>
+    <string name="title_home">Demon Directory</string>
+    <string name="title_new_demon">New demon</string>
 </resources>

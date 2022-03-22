@@ -11,7 +11,6 @@ import com.nikoaccampora.finalproject.R
 import com.nikoaccampora.finalproject.model.Demon
 
 class AdapterDemon(private val context: Context, private  val demons: MutableList<Demon>): RecyclerView.Adapter<AdapterDemon.DemonViewHolder>() {
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DemonViewHolder {
         val itemLista = LayoutInflater.from(context).inflate(R.layout.demon_item,parent,false)
         val holder = DemonViewHolder(itemLista)

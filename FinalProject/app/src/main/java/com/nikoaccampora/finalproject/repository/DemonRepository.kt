@@ -1,16 +1,18 @@
 package com.nikoaccampora.finalproject.repository
 
 import android.content.Context
+import android.util.Log
 import com.nikoaccampora.finalproject.dao.DemonDAO
 import com.nikoaccampora.finalproject.dao.DataBaseHelper
 import com.nikoaccampora.finalproject.model.Demon
 
-class ContactRepository(context: Context) {
+class DemonRepository(context: Context) {
     private val dbHelper = DataBaseHelper(context)
     private val dao = DemonDAO(dbHelper.connectionSource)
 
     fun insert(demon:Demon):Int{
         val result = dao.create(demon)
+        Log.d("appdebug",result.toString())
         dao.connectionSource.close()
         return result
     }
