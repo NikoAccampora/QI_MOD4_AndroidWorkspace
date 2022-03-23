@@ -18,9 +18,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_name" />
+            android:hint="@string/label_name"
+            android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -34,13 +36,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_phone" />
+            android:hint="@string/label_phone"
+            android:inputType="phone" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/fabSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -48,5 +52,5 @@
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_add" />
+        app:srcCompat="@drawable/ic_save" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 package br.com.andersonchoren.agendadecontatos.model
 
-import android.provider.ContactsContract
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,8 +22,7 @@ class ContactAdapter(private val contacts:List<Contact>) : RecyclerView.Adapter<
     override fun getItemCount(): Int = contacts.size
 
 }
-
-class ContactHolder(view: View) : RecyclerView.ViewHolder(view){
-    val tvName: TextView = view.findViewById(R.id.tvName)
-    val tvPhone: TextView = view.findViewById(R.id.tvPhone)
+class ContactHolder(private val view:View) : RecyclerView.ViewHolder(view){
+    var tvName:TextView = view.findViewById(R.id.tvName)
+    var tvPhone:TextView = view.findViewById(R.id.tvPhone)
 }
