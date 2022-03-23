@@ -6,6 +6,8 @@ import com.j256.ormlite.table.DatabaseTable
 data class Demon(
 
     @DatabaseField(generatedId = true)
+    val id: Int=0,
+    @DatabaseField
     val foto: Int=0,
     @DatabaseField
     val nome: String="",

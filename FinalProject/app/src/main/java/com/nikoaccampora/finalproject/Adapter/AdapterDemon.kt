@@ -1,6 +1,7 @@
 package com.nikoaccampora.finalproject.Adapter
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,6 +20,7 @@ class AdapterDemon(private val context: Context, private  val demons: MutableLis
 
     override fun onBindViewHolder(holder: DemonViewHolder, position: Int) {
         holder.foto.setImageResource(demons[position].foto)
+        Log.d("appdebug","Nome: ${demons[position]}")
         holder.nome.text = demons[position].nome
         holder.health.text = demons[position].health
         holder.attack.text = demons[position].attack

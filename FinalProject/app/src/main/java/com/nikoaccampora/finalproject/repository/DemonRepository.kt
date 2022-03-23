@@ -12,7 +12,6 @@ class DemonRepository(context: Context) {
 
     fun insert(demon:Demon):Int{
         val result = dao.create(demon)
-        Log.d("appdebug",result.toString())
         dao.connectionSource.close()
         return result
     }
