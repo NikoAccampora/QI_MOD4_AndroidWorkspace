@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Demonios do Inferno</string>
+    <string name="app_name">Demônios do Inferno</string>
     <string name="demon_name_title">Nome</string>
     <string name="demon_health_title">Energia:</string>
     <string name="demon_attack_title">Ataque:</string>
@@ -10,7 +10,7 @@
     <string name="label_health">Quantidade de Energia</string>
     <string name="label_agility">Nível de Agilidade</string>
     <string name="label_picture">Arquivo de imagem</string>
-    <string name="label_msg_confirm">Demonio registrado!!</string>
-    <string name="title_home">Directorio de Demonios</string>
-    <string name="title_new_demon">Novo demonio</string>
+    <string name="label_msg_confirm">Novo Demônio registrado!</string>
+    <string name="title_home">Directorio de Demônios</string>
+    <string name="title_new_demon">Criar um novo demônio</string>
 </resources>

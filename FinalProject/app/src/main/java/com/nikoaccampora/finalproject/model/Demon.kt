@@ -6,16 +6,16 @@ import com.j256.ormlite.table.DatabaseTable
 data class Demon(
 
     @DatabaseField(generatedId = true)
-    val id: Int=0,
+    var id: Int=0,
     @DatabaseField
-    val foto: Int=0,
+    var foto: Int=0,
     @DatabaseField
-    val nome: String="",
+    var nome: String="",
     @DatabaseField
-    val health: String="",
+    var health: String="",
     @DatabaseField
-    val attack: String="",
+    var attack: String="",
     @DatabaseField
-    val agility: String=""
+    var agility: String=""
 
 )

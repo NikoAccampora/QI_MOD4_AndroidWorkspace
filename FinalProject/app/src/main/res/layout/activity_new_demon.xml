@@ -39,7 +39,8 @@
             android:id="@+id/edtHealth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_health" />
+            android:hint="@string/label_health"
+            android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,7 +58,8 @@
             android:id="@+id/edtAttack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_attack" />
+            android:hint="@string/label_attack"
+            android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -75,20 +77,51 @@
             android:id="@+id/edtAgility"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label_agility" />
+            android:hint="@string/label_agility"
+            android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView_imageFile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/label_picture"
+        android:textSize="18sp"
+        android:textColor="#ff555555"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_inputlayout_agility" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_inputlayout_agility"
+        app:layout_constraintTop_toBottomOf="@id/textView_imageFile"
         />
+
+    <ImageView
+        android:id="@+id/image_selectedPicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:srcCompat="@drawable/skula1" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabSave"

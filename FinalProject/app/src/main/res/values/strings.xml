@@ -9,7 +9,7 @@
     <string name="label_health">Health Amount</string>
     <string name="label_agility">Agility Rating</string>
     <string name="label_picture">Image file</string>
-    <string name="label_msg_confirm">Demon saved!!</string>
+    <string name="label_msg_confirm">New demon created!</string>
     <string name="title_home">Demon Directory</string>
-    <string name="title_new_demon">New demon</string>
+    <string name="title_new_demon">Create new demon</string>
 </resources>
